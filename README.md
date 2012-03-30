@@ -11,8 +11,7 @@ Dependencies
 To Run
 ------
 
-node web.js
+`node web.js`
 
 And direct your web browser to:
-
 http://localhost:5000
