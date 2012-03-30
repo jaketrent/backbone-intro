@@ -1,0 +1,37 @@
+body {
+  background: #efefef;
+  font-family: helvetica, arial, sans-serif;
+}
+.client {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 10px solid #5ea8fc;
+  border-radius: 5px;
+  box-shadow: 2px 5px 4px #ababab;
+  background: #5ea8fc; /* Old browsers */
+  background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+  padding: 10px;
+}
+.history {
+  list-style: none;
+  height: 200px;
+  border: 5px solid #5ea8fc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0;
+  overflow: auto;
+}
+.history li {
+  padding: 10px;
+  cursor: pointer;
+}
+.history li:nth-child(2n+1) {
+  background: #efefef;
+}
+.text {
+  width: 80%;
+}

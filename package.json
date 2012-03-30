@@ -1,0 +1,14 @@
+{
+  "name": "backbone-intro",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.6.x",
+    "npm":  "1.1.x"
+  },
+  "dependencies": {
+    "express": "2.5.8",
+    "request": "2.9.x",
+    "mongojs": "0.3.x",
+    "mongodb": "0.9.x"
+  }
+}
